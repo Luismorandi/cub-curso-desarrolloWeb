@@ -1,0 +1,79 @@
+@mixin section ($colorDeFondo, $altura) {
+    height: $altura;
+    width: 100%;
+    background-color: $colorDeFondo;
+    
+}
+    .section-1{
+@include section (white, 100vh)
+    }
+    .section-2{
+@include section (#FFA15C, 50vh)
+    }
+
+
+    @mixin mt ($marginTop)
+        {
+            margin-top: $marginTop;
+         }
+        
+    
+    .marging-1
+    {
+      @include mt(35vh)
+     }
+
+    .marging-2
+
+    {
+      @include mt(12vh)
+     }
+     .marging-3
+
+    {
+      @include mt(2vh)
+     };
+
+     @media (max-width: 750px) {
+        .section-2
+        {
+            background-image: none;
+            background-color: #FFA15C;
+            height: auto;
+             }
+             .section-1{
+                height: auto;
+            }
+
+            .marging-1
+            {
+              margin-top: 10%;
+             }
+
+        
+
+     }
+     @media (max-width: 1250px) 
+     {        .section-2
+        {
+            background-image: none;
+            background-color: #FFA15C;
+            height: auto;
+             }
+
+             .section-1{
+                height: auto;
+            }
+
+            .marging-1
+            {
+              margin-top: 10%;
+             }
+
+            }
+
+
+     @import "_nav.scss";
+     @import "_footer.scss"
+ 
+

@@ -1,0 +1,317 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de letras  */
+.letrasPequenas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+  padding: 20px;
+}
+
+.letrasGrandes {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+#sloganIzquierda {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+  color: #333333;
+  margin-left: 64px;
+  padding: 0%;
+}
+
+.styloSlogan {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5em;
+  line-height: 68px;
+  margin-left: 60px;
+  padding: 0%;
+}
+
+.letrasPequenasCentradas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 3vw;
+  letter-spacing: 0.01em;
+  color: #333333;
+  text-align: center;
+}
+
+/* Estilos del nav */
+.marging {
+  margin-top: 35vh;
+}
+
+/*  Cajas del index con informacion  */
+.cajas {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 30px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cajas:hover {
+  transform: scale(1.5);
+}
+
+.letraGrandeCajas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 68px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasPequenasCajas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+/* Background de secciones  */
+#margintop {
+  margin-top: 180px;
+}
+
+.letrasPequenasCentradas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+  text-align: center;
+}
+
+.logoAlMedio {
+  margin-top: 35vh;
+}
+
+/* Media Querys para apariencias pequeñas */
+@media all and (max-width: 1250px) {
+  .container-fluid {
+    background-color: white;
+    height: auto;
+  }
+
+  .logoAlMedio {
+    margin: 3vh;
+  }
+
+  .section-1 {
+    height: auto;
+  }
+
+  .letrasGrandes {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: 0.01em;
+    color: #333333;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .marging {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .styloSlogan {
+    margin: 0px;
+  }
+
+  #sloganIzquierda {
+    margin: 0px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .container-fluid {
+    height: auto;
+  }
+
+  .slogan {
+    text-align: center;
+    justify-content: center;
+    text-transform: none;
+    text-decoration-style: none;
+  }
+
+  .section-2 {
+    background-image: none;
+    background-color: #FFA15C;
+    height: auto;
+  }
+
+  ul li {
+    text-align: center;
+  }
+
+  .styloSlogan {
+    margin-left: none;
+  }
+}
+@media all and (max-width: 750px) {
+  .container-fluid {
+    background-color: white;
+    height: auto;
+  }
+
+  .section-1 {
+    height: auto;
+  }
+
+  .marging {
+    margin-top: auto;
+  }
+
+  .letrasPequenas {
+    text-align: center;
+  }
+
+  .styloSlogan {
+    margin: 0px;
+    font-size: 10vw;
+  }
+
+  #sloganIzquierda {
+    margin: 0px;
+    margin-bottom: 35%;
+  }
+
+  .letrasGrandes {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15vw;
+    letter-spacing: 0.01em;
+    color: #333333;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 0vh;
+  }
+
+  .container-fluid {
+    height: auto;
+  }
+
+  .slogan {
+    text-align: center;
+    justify-content: center;
+    text-transform: none;
+    text-decoration-style: none;
+  }
+
+  .section-2 {
+    background-image: none;
+    background-color: #FFA15C;
+    height: auto;
+  }
+
+  ul li {
+    text-align: center;
+  }
+
+  .styloSlogan {
+    margin-left: none;
+  }
+}
+.nav1 {
+  list-style-type: none;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav2 {
+  display: inline;
+  margin-right: auto;
+  border: none;
+  height: 100%;
+}
+
+.nav3 {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  justify-content: center;
+  height: 100%;
+}
+
+a:hover {
+  color: #D7C8B6;
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+@media (max-width: 1250px) {
+  .nav1 {
+    text-align: center;
+  }
+}
+@media (max-width: 750px) {
+  .nav1 {
+    text-align: center;
+  }
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #3D3C3C;
+}
+
+.footer2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+  padding: 20px;
+}
+
+.colorLetras {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
