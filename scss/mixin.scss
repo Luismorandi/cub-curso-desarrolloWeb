@@ -17,7 +17,9 @@
             margin-top: $marginTop;
          }
         
-    
+    .marging-0{
+        @include mt(70vh)
+    }
     .marging-1
     {
       @include mt(35vh)
@@ -33,6 +35,8 @@
     {
       @include mt(2vh)
      };
+
+     
 
      @media (max-width: 750px) {
         .section-2

@@ -98,6 +98,14 @@
 }
 
 /* Background de secciones  */
+.backgroundImages {
+  background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
+  background-repeat: no-repeat;
+  height: 95vh;
+  background-color: #323232;
+  background-blend-mode: soft-light;
+}
+
 #margintop {
   margin-top: 180px;
 }
