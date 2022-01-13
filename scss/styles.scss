@@ -43,6 +43,18 @@ $t0: map-get($tamanoLetra , t1);
   padding: 20px;
       
   }
+
+  .letrasPequenas1 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: $t1;
+letter-spacing: 0.01em;
+color: #333333;
+
+    
+}
+
   
   
   
@@ -152,7 +164,7 @@ $t0: map-get($tamanoLetra , t1);
     background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
 
 	background-repeat: no-repeat;
-    height: 95vh;
+    height: 91vh;
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
   }
