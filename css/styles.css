@@ -24,6 +24,10 @@
   color: #333333;
 }
 
+hr {
+  text-align: center;
+}
+
 .letrasGrandes {
   font-family: Poppins;
   font-style: normal;
