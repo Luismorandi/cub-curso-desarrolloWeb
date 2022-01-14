@@ -26,6 +26,8 @@
 
 hr {
   text-align: center;
+  color: #FFA15C;
+  background-color: #FFA15C;
 }
 
 .letrasGrandes {
@@ -326,7 +328,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  background-color: #3D3C3C;
+  background-color: #FFA15C;
 }
 
 .footer2 {
