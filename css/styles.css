@@ -119,6 +119,14 @@ hr {
   background-blend-mode: soft-light;
 }
 
+.backgroundImages2 {
+  background-image: url(../assests/bosque-con-niebla-al-amanecer_1920x1080_xtrafondos.com.jpg);
+  background-repeat: no-repeat;
+  height: 91vh;
+  background-color: #323232;
+  background-blend-mode: soft-light;
+}
+
 #margintop {
   margin-top: 180px;
 }
