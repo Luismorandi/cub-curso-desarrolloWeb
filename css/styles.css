@@ -328,7 +328,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  background-color: #FFA15C;
+  background-color: #3D3C3C;
 }
 
 .footer2 {
@@ -343,6 +343,28 @@ a:hover {
 
 .colorLetras {
   color: white;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
