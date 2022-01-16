@@ -8,7 +8,7 @@
 @include section (white, 91vh)
     }
     .section-2{
-@include section (#FFA15C, 50vh)
+@include section (#FFA15C, 50%)
     }
 
 
@@ -52,7 +52,15 @@
       @include mt(2vh)
      };
 
-     
+     @mixin mb ($marginBottom) {
+
+        margin-bottom: $marginBottom;
+         
+     }
+
+     .margingb-2 {
+         @include mb(12vh)
+     }
 
      @media (max-width: 750px) {
         .section-2

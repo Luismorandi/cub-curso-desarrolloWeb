@@ -78,7 +78,6 @@ hr {
   height: 200px;
   width: 200px;
   background-color: white;
-  margin: 30px;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
@@ -100,6 +99,7 @@ hr {
 }
 
 .letrasPequenasCajas {
+  text-overflow: hidden;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -160,9 +160,34 @@ hr {
 }
 
 /* Media Querys para apariencias pequeñas */
-@media screen and (min-width: 540px) {
+@media screen and (max-width: 767px) {
   .nav1 {
     text-align: center;
+  }
+
+  .col-sm-12 {
+    text-align: center;
+    margin-top: 3vh;
+  }
+
+  .styloSlogan {
+    font-size: 3em;
+  }
+
+  #sloganIzquierda {
+    font-size: 1.5em;
+  }
+
+  .letrasGrandes {
+    font-size: 3em;
+  }
+
+  .letrapequeCajas {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    margin-bottom: 9vh;
   }
 }
 .nav1 {
