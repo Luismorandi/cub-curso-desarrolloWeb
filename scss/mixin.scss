@@ -5,7 +5,7 @@
     
 }
     .section-1{
-@include section (white, 100vh)
+@include section (white, 91vh)
     }
     .section-2{
 @include section (#FFA15C, 50vh)
@@ -40,6 +40,12 @@
      {
        @include mt(5vh)
       }
+
+      .marging-22
+
+      {
+        @include mt(20vh)
+       }
      .marging-3
 
     {

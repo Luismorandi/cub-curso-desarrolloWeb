@@ -79,7 +79,6 @@ hr {
   font-size: $t1;
   letter-spacing: 0.01em;
   color: #333333;
-  margin-left: 64px;
   padding: 0%;
   }
   
@@ -89,8 +88,6 @@ hr {
       font-style: normal;
       font-weight: bold;
       font-size: $t5;
-      line-height: 68px;
-      margin-left: 60px;
       padding: 0%;
           
           
@@ -168,6 +165,7 @@ hr {
 
   .backgroundImages{
     background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
+    width: 100%;
 
 	background-repeat: no-repeat;
     height: 91vh;
@@ -183,6 +181,15 @@ hr {
     background-blend-mode: soft-light;
   }
   
+  .backgroundImages3{
+    background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
+    width: 100%;
+
+	background-repeat: no-repeat;
+    height: 91vh;
+    background-color: rgb(190, 190, 190);
+    background-blend-mode: soft-light;
+  }
           #margintop {
               margin-top: 180px;
           }
@@ -198,6 +205,11 @@ hr {
   text-align: center;
       
   }
+
+  .row { 
+      margin-left: 0vh;
+      margin-right: 0vh;
+  }
   
 
   .logoAlMedio  {
@@ -209,169 +221,14 @@ hr {
   
   /* Media Querys para apariencias pequeñas */
 
-  
+  @media screen and (min-width: 540px) { 
+
+    .nav1 {
+        text-align: center
+    }
+  }
 
   
-   
-
-            
-                      @media all and (max-width: 1250px) 
-                          {
-  
-                              .container-fluid {
-                                  background-color: white;
-                                  height: auto;
-                              
-                                   }
-                  
-                                   .logoAlMedio  {
-                                  margin: 3vh
-                                  ;
-                                }
-                                   .section-1{
-                                       height: auto;
-                                   }
-                                   .letrasGrandes { font-family: Poppins;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 5vw;
-                                    letter-spacing: 0.01em;
-                                    color: #333333;
-                                    margin-top: 2vh;
-                                    margin-bottom: 2vh;
-                                    }
-  
-                                   .marging {
-                                      margin-top: 2vh;
-                                      margin-bottom: 2vh;
-                                    
-                                  }
-                                  
-                              
-                                   .styloSlogan  {
-                                      margin: 0px;
-                                       }
-                  
-                                       #sloganIzquierda {
-                                          margin: 0px;
-                                           }
-                              .logo 
-                              {
-                                  text-align: center;
-                                   }
-                                  
-                              .container-fluid {
-                                  height: auto;
-                              }
-                  
-                              .slogan 
-                              {
-                                  text-align: center;
-                                  justify-content: center;
-                                  text-transform: none;
-                                  text-decoration-style: none;
-                                   }
-                  
-                              .section-2
-                              {
-                                  background-image: none;
-                                  background-color: #FFA15C;
-                                  height: auto;
-                                   }
-                  
-                                   
-
-                              
-                                  ul li {
-                                      text-align: center;
-                                  }
-                  
-                  
-                                       .styloSlogan {
-                                           margin-left: none;
-                                       }
-                                      }
-
-                                      @media all and (max-width: 750px) {
-  
-                                        .container-fluid {
-                                            background-color: white;
-                                            height: auto;
-                                        
-                                             }
-                          
-                                        
-                          
-                                             .section-1{
-                                                 height: auto;
-                                             }
-                            
-                                             .marging{
-                                                 margin-top: auto;
-                                              }
-                                              .letrasPequenas {
-                                            text-align: center;
-                                                  
-                                              }
-                          
-                            
-                                             .styloSlogan  {
-                                                margin: 0px;
-                                                font-size: 10vw;
-                                                 }
-                            
-                                                 #sloganIzquierda {
-                                                    margin: 0px;
-                                                    margin-bottom: 35%;
-                                                     }
-                          
-                                                     .letrasGrandes { font-family: Poppins;
-                                                      font-style: normal;
-                                                      font-weight: bold;
-                                                      font-size: 15vw;
-                                                      letter-spacing: 0.01em;
-                                                      color: #333333;
-                                                      }
-                          
-                            
-                                                
-                          
-                                
-                                        .logo 
-                                        {
-                                            text-align: center;
-                                            margin-top: 0vh;
-                                             }
-                                            
-                                        .container-fluid {
-                                            height: auto;
-                                        }
-                            
-                                        .slogan 
-                                        {
-                                            text-align: center;
-                                            justify-content: center;
-                                            text-transform: none;
-                                            text-decoration-style: none;
-                                             }
-                            
-                                        .section-2
-                                        {
-                                            background-image: none;
-                                            background-color: #FFA15C;
-                                            height: auto;
-                                             }
-                            
-                                            ul li {
-                                                text-align: center;
-                                            }
-                            
-                          
-                                            .styloSlogan {
-                                                     margin-left: none;
-                                                 }
-                                                } 
-
     @import "_nav.scss";
     @import "_footer.scss";
     @import "_form.scss"

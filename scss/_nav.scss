@@ -1,6 +1,6 @@
 .nav1 {
     list-style-type: none;
-    text-align: right;
+    text-align: center;
     font-family: Poppins;
 font-size: 15px;
 font-weight: bold;
@@ -35,21 +35,9 @@ font-weight: bold;
     padding: 0px;
     text-decoration: none;
   }
-  @media (max-width: 1250px) 
-  {
-  
+  @media screen and (min-width: 540px) { 
+
     .nav1 {
-        text-align: center;
-        
-        }
-              }
-
-  
-
-@media (max-width: 750px) 
-{
-    .nav1 {
-        text-align: center;
-
-            }
-        }
+        text-align: center
+    }
+  }
