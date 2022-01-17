@@ -62,6 +62,25 @@
          @include mb(12vh)
      }
 
+     .margingb-22 {
+        @include mb(20vh)
+    };
+
+    @mixin ml ($marginLeft) {
+
+        margin-left: $marginLeft;
+         
+     }
+
+     .margingl-2 {
+         @include ml(8vh)
+     }
+
+     .margingl-22 {
+        @include ml(16vh)
+    };
+
+
      @media (max-width: 750px) {
         .section-2
         {

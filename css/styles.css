@@ -22,6 +22,7 @@
   font-size: 1.5em;
   letter-spacing: 0.01em;
   color: #333333;
+  margin-top: 7vh;
 }
 
 hr {
@@ -30,7 +31,34 @@ hr {
   background-color: #FFA15C;
 }
 
+#stylo2 {
+  margin-top: 7vh;
+  margin-left: 16vh;
+}
+
+#stylo22 {
+  margin-left: 8vh;
+}
+
 .letrasGrandes {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasGrandes2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasGrandes21 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -109,6 +137,17 @@ hr {
   color: #333333;
 }
 
+.letrasPequenasCajas2 {
+  text-overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
 /* Background de secciones  */
 .backgroundImages {
   background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
@@ -160,6 +199,26 @@ hr {
 }
 
 /* Media Querys para apariencias pequeñas */
+@media screen and (max-width: 1326px) {
+  .col-md-12 {
+    font-size: 1vh;
+  }
+
+  #stylo2 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+  }
+
+  #stylo22 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+  }
+
+  .letrasPequenasCajas2 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 767px) {
   .nav1 {
     text-align: center;
@@ -182,12 +241,29 @@ hr {
     font-size: 3em;
   }
 
+  .letrasGrandes2 {
+    font-size: 5em;
+  }
+
   .letrapequeCajas {
     font-size: 1.5em;
   }
 
   .logo {
     margin-bottom: 9vh;
+  }
+
+  .letrasPequenas1 {
+    margin-top: 3vh;
+  }
+
+  .letrasGrandes21 {
+    font-size: 5em;
+  }
+
+  .letrasPequenasCajas2 {
+    font-size: 2em;
+    text-align: center;
   }
 }
 .nav1 {

@@ -3,12 +3,14 @@ $colorPrimario:  #FFA15C;
 $tamanoLetra: (
 
 t0: 1em,
+t01: 1.2em,
 t1: 1.5em,
 t2: 2em,
 t3: 3em,
 t4: 4em,
 t5: 5em,
 t6: 6em,
+
 
 
 );
@@ -19,6 +21,7 @@ $t4: map-get($tamanoLetra , t4);
 $t3: map-get($tamanoLetra , t3);
 $t2: map-get($tamanoLetra , t2);
 $t1: map-get($tamanoLetra , t1);
+$t01: map-get($tamanoLetra , t01);
 $t0: map-get($tamanoLetra , t1);
 
 
@@ -51,6 +54,7 @@ font-weight: bold;
 font-size: $t1;
 letter-spacing: 0.01em;
 color: #333333;
+margin-top: 7vh;
 
     
 }
@@ -61,7 +65,16 @@ hr {
     background-color: $colorPrimario;
 
 }
-  
+
+#stylo2 {
+    margin-top: 7vh;
+    margin-left: 16vh;
+}
+
+#stylo22 {
+
+    margin-left: 8vh;
+}
   
   
   .letrasGrandes { font-family: Poppins;
@@ -71,6 +84,23 @@ hr {
       letter-spacing: 0.01em;
       color: #333333;
       }
+
+      .letrasGrandes2 { font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $t6;
+        letter-spacing: 0.01em;
+        color: #333333;
+
+        }
+        .letrasGrandes21 { font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: $t6;
+            letter-spacing: 0.01em;
+            color: #333333;
+    
+            }
   
   #sloganIzquierda { 
       font-family: Poppins;
@@ -157,6 +187,19 @@ hr {
   
               
           }
+          .letrasPequenasCajas2 {
+            text-overflow: hidden;
+                  font-family: Poppins;
+              font-style: normal;
+              font-weight: bold;
+              font-size: $t1;
+              line-height: 25px;
+              letter-spacing: 0.01em;
+              color: #333333;
+    
+      
+                  
+              }
   
   
   
@@ -220,6 +263,32 @@ hr {
 
   
   /* Media Querys para apariencias pequeñas */
+  @media screen and (max-width: 1326px)
+  { 
+
+
+.col-md-12 {
+    font-size: 1vh
+}
+#stylo2 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+}
+
+#stylo22 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+}
+.letrasPequenasCajas2 {
+        
+    font-size: $t2;
+    text-align: center;
+
+
+        
+    }
+
+  }
 
   @media screen and (max-width: 767px) { 
 
@@ -242,6 +311,10 @@ hr {
     .letrasGrandes {
         font-size: $t3;
     }
+
+    .letrasGrandes2 {
+        font-size: $t5;
+    }
     .letrapequeCajas{
         font-size: $t0
     }
@@ -251,7 +324,30 @@ hr {
 
     }
 
+    .letrasPequenas1 {
+    margin-top: 3vh
+    }
+    .letrasGrandes21 { 
+
+        font-size: $t5;
+
+
+        }
+
+        .letrasPequenasCajas2 {
+        
+              font-size: $t2;
+              text-align: center
+
+      
+                  
+              }
+
+
+
   }
+
+
 
   
     @import "_nav.scss";
