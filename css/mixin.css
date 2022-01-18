@@ -7,7 +7,7 @@
 .section-2 {
   height: 50%;
   width: 100%;
-  background-color: #FFA15C;
+  background-color: #fcf7f4;
 }
 
 .marging-0 {
@@ -26,6 +26,10 @@
   margin-top: 12vh;
 }
 
+.marging-2222 {
+  margin-top: 12vh;
+}
+
 .marging-21 {
   margin-top: 5vh;
 }
@@ -40,6 +44,10 @@
 
 .margingb-2 {
   margin-bottom: 12vh;
+}
+
+.margingb-25 {
+  margin-bottom: 27vh;
 }
 
 .margingb-22 {
@@ -88,7 +96,7 @@
   list-style-type: none;
   text-align: center;
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -108,7 +116,7 @@
 }
 
 a:hover {
-  color: #D7C8B6;
+  color: #FFA15C;
   height: 100%;
   border: 0px;
   padding: 0px;

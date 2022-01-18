@@ -8,7 +8,7 @@
 @include section (white, 91vh)
     }
     .section-2{
-@include section (#FFA15C, 50%)
+@include section (#fcf7f4, 50%)
     }
 
 
@@ -34,6 +34,11 @@
     {
       @include mt(12vh)
      }
+     .marging-2222
+
+     {
+       @include mt(12vh)
+      }
 
      .marging-21
 
@@ -61,6 +66,10 @@
      .margingb-2 {
          @include mb(12vh)
      }
+
+     .margingb-25 {
+        @include mb(27vh)
+    }
 
      .margingb-22 {
         @include mb(20vh)

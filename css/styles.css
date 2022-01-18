@@ -40,6 +40,15 @@ hr {
   margin-left: 8vh;
 }
 
+#stylo2221 {
+  margin-left: 6vh;
+}
+
+#stylo221 {
+  margin-top: 7vh;
+  margin-left: 8vh;
+}
+
 .letrasGrandes {
   font-family: Poppins;
   font-style: normal;
@@ -65,6 +74,11 @@ hr {
   font-size: 6em;
   letter-spacing: 0.01em;
   color: #333333;
+}
+
+.btn-success {
+  background-color: #FFA15C;
+  border-color: #FFA15C;
 }
 
 #sloganIzquierda {
@@ -171,7 +185,7 @@ hr {
   width: 100%;
   background-repeat: no-repeat;
   height: 91vh;
-  background-color: #bebebe;
+  background-color: #323232;
   background-blend-mode: soft-light;
 }
 
@@ -198,6 +212,10 @@ hr {
   margin-top: 35vh;
 }
 
+.marging-2222 {
+  margin-top: 12vh;
+}
+
 /* Media Querys para apariencias pequeñas */
 @media screen and (max-width: 1326px) {
   .col-md-12 {
@@ -209,7 +227,17 @@ hr {
     margin-left: 0vh;
   }
 
+  #stylo221 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+  }
+
   #stylo22 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+  }
+
+  #stylo2221 {
     margin-top: 0vh;
     margin-left: 0vh;
   }
@@ -265,12 +293,25 @@ hr {
     font-size: 2em;
     text-align: center;
   }
+
+  #marging4 {
+    margin-top: 20vh;
+  }
+
+  .marging-2222 {
+    margin-top: 2vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .letrasGrandes21 {
+    font-size: 3em;
+  }
 }
 .nav1 {
   list-style-type: none;
   text-align: center;
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -290,7 +331,7 @@ hr {
 }
 
 a:hover {
-  color: #D7C8B6;
+  color: #FFA15C;
   height: 100%;
   border: 0px;
   padding: 0px;

@@ -75,6 +75,16 @@ hr {
 
     margin-left: 8vh;
 }
+
+#stylo2221 {
+
+    margin-left: 6vh;
+}
+
+#stylo221 {
+    margin-top: 7vh;
+    margin-left: 8vh;
+}
   
   
   .letrasGrandes { font-family: Poppins;
@@ -101,7 +111,12 @@ hr {
             color: #333333;
     
             }
-  
+
+            
+  .btn-success {
+      background-color: $colorPrimario;
+      border-color: $colorPrimario;
+  }
   #sloganIzquierda { 
       font-family: Poppins;
   font-style: normal;
@@ -230,7 +245,7 @@ hr {
 
 	background-repeat: no-repeat;
     height: 91vh;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
   }
           #margintop {
@@ -258,7 +273,11 @@ hr {
   .logoAlMedio  {
     margin-top: 35vh;
         }
+        .marging-2222
 
+        {
+         margin-top: 12vh;
+         }
   
 
   
@@ -274,8 +293,17 @@ hr {
     margin-top: 0vh;
     margin-left: 0vh;
 }
+#stylo221 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+}
 
 #stylo22 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+}
+
+#stylo2221 {
     margin-top: 0vh;
     margin-left: 0vh;
 }
@@ -343,9 +371,28 @@ hr {
                   
               }
 
+              #marging4 {
+                  margin-top: 20vh
+              }
+
+        .marging-2222{
+            margin-top: 2vh;
+        }
+
 
 
   }
+  @media screen and (max-width: 380px) {
+
+    .letrasGrandes21 { 
+
+        font-size: $t3;
+
+
+        }
+
+}
+
 
 
 
