@@ -19,7 +19,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
   letter-spacing: 0.01em;
   color: #333333;
   margin-top: 7vh;
@@ -56,6 +56,24 @@ hr {
   font-size: 6em;
   letter-spacing: 0.01em;
   color: #333333;
+}
+
+.letrasGrandes211 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasGrandes2111 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+  color: white;
 }
 
 .letrasGrandes2 {
@@ -146,7 +164,7 @@ hr {
   font-style: normal;
   font-weight: bold;
   font-size: 1.5em;
-  line-height: 25px;
+  line-height: 35px;
   letter-spacing: 0.01em;
   color: #333333;
 }
@@ -157,7 +175,7 @@ hr {
   font-style: normal;
   font-weight: bold;
   font-size: 1.5em;
-  line-height: 25px;
+  line-height: 35px;
   letter-spacing: 0.01em;
   color: #333333;
 }
@@ -182,15 +200,64 @@ hr {
 
 .backgroundImages3 {
   background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
+  background-size: 100% 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  height: 91vh;
+  height: 100vh;
   background-color: #323232;
   background-blend-mode: soft-light;
 }
 
 #margintop {
   margin-top: 180px;
+}
+
+.head {
+  background-color: #FFA15C;
+  border-radius: 5px;
+  margin-top: -4.5vh;
+  -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  -moz-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+}
+
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #FFA15C;
+  transition: 0.4s;
+}
+
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+.btn1 {
+  background: #FFA15C;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 7vh;
+}
+
+.btn1:hover {
+  -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  -moz-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
 }
 
 .letrasPequenasCentradas {
@@ -243,7 +310,12 @@ hr {
   }
 
   .letrasPequenasCajas2 {
-    font-size: 2em;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .letrasPequenas1 {
+    font-size: 3em;
     text-align: center;
   }
 }
@@ -266,15 +338,15 @@ hr {
   }
 
   .letrasGrandes {
-    font-size: 3em;
+    font-size: 7em;
   }
 
   .letrasGrandes2 {
-    font-size: 5em;
+    font-size: 6em;
   }
 
-  .letrapequeCajas {
-    font-size: 1.5em;
+  .letrapequenasCajas {
+    font-size: 2em;
   }
 
   .logo {
@@ -283,15 +355,21 @@ hr {
 
   .letrasPequenas1 {
     margin-top: 3vh;
+    font-size: 3em;
   }
 
   .letrasGrandes21 {
-    font-size: 5em;
+    font-size: 7em;
+  }
+
+  .letrasGrandes211 {
+    font-size: 4em;
   }
 
   .letrasPequenasCajas2 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
+    line-height: 35px;
   }
 
   #marging4 {
@@ -304,7 +382,7 @@ hr {
 }
 @media screen and (max-width: 380px) {
   .letrasGrandes21 {
-    font-size: 3em;
+    font-size: 1.2em;
   }
 }
 .nav1 {

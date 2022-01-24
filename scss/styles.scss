@@ -10,11 +10,14 @@ t3: 3em,
 t4: 4em,
 t5: 5em,
 t6: 6em,
+t7: 7em,
+t8: 8em,
 
 
 
 );
-
+$t8: map-get($tamanoLetra , t8);
+$t7: map-get($tamanoLetra , t7);
 $t6: map-get($tamanoLetra , t6);
 $t5: map-get($tamanoLetra , t5);
 $t4: map-get($tamanoLetra , t4);
@@ -51,7 +54,7 @@ $t0: map-get($tamanoLetra , t1);
     font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: $t1;
+font-size: $t2;
 letter-spacing: 0.01em;
 color: #333333;
 margin-top: 7vh;
@@ -94,6 +97,24 @@ hr {
       letter-spacing: 0.01em;
       color: #333333;
       }
+
+      .letrasGrandes211 { font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $t6;
+        letter-spacing: 0.01em;
+        color: #333333;
+        }
+
+        .letrasGrandes2111 { font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: $t0;
+            letter-spacing: 0.01em;
+            color: white
+            ;
+            }
+
 
       .letrasGrandes2 { font-family: Poppins;
         font-style: normal;
@@ -194,8 +215,8 @@ hr {
               font-family: Poppins;
           font-style: normal;
           font-weight: bold;
-          font-size: $t1;
-          line-height: 25px;
+          font-size: $t0;
+          line-height: 35px;
           letter-spacing: 0.01em;
           color: #333333;
 
@@ -207,14 +228,16 @@ hr {
                   font-family: Poppins;
               font-style: normal;
               font-weight: bold;
-              font-size: $t1;
-              line-height: 25px;
+              font-size: $t0;
+              line-height: 35px;
               letter-spacing: 0.01em;
               color: #333333;
     
       
                   
               }
+
+
   
   
   
@@ -241,10 +264,9 @@ hr {
   
   .backgroundImages3{
     background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
+    background-size: 100% 100%;
     width: 100%;
-
-	background-repeat: no-repeat;
-    height: 91vh;
+    height: 100vh;
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
   }
@@ -252,6 +274,59 @@ hr {
               margin-top: 180px;
           }
   
+.head {
+    background-color: $colorPrimario;
+    border-radius: 5px;
+    margin-top: -4.5vh;
+    -webkit-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+    -moz-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+    box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+}
+
+.effect-1 {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: $colorPrimario;
+    transition: 0.4s;
+}
+
+.effect-1:focus ~ .focus-border{
+    width: 100%;
+    transition: 0.4s ;
+    left: 0;
+
+}
+
+.btn1 {
+    background: $colorPrimario;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 7vh;
+
+}
+
+.btn1:hover {
+
+    -webkit-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+    -moz-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+    box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+
+
+}
           
   .letrasPequenasCentradas {
       font-family: Poppins;
@@ -309,12 +384,20 @@ hr {
 }
 .letrasPequenasCajas2 {
         
-    font-size: $t2;
+    font-size: $t3;
     text-align: center;
 
 
         
     }
+    .letrasPequenas1 {
+        
+        font-size: $t3;
+        text-align: center;
+    
+    
+            
+        }
 
   }
 
@@ -337,14 +420,14 @@ hr {
     }
 
     .letrasGrandes {
-        font-size: $t3;
+        font-size: $t7;
     }
 
     .letrasGrandes2 {
-        font-size: $t5;
+        font-size: $t6;
     }
-    .letrapequeCajas{
-        font-size: $t0
+    .letrapequenasCajas{
+        font-size: $t2
     }
 
     .logo {
@@ -353,19 +436,28 @@ hr {
     }
 
     .letrasPequenas1 {
-    margin-top: 3vh
+    margin-top: 3vh;
+    font-size: $t3;
     }
     .letrasGrandes21 { 
 
-        font-size: $t5;
+        font-size: $t7;
 
 
         }
 
+        .letrasGrandes211 { 
+
+            font-size: $t4;
+    
+    
+            }
+
         .letrasPequenasCajas2 {
         
-              font-size: $t2;
-              text-align: center
+              font-size: $t3;
+              text-align: center;
+              line-height: 35px;
 
       
                   
@@ -386,7 +478,7 @@ hr {
 
     .letrasGrandes21 { 
 
-        font-size: $t3;
+        font-size: $t01;
 
 
         }
