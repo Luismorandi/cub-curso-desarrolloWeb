@@ -1,494 +1,388 @@
-$colorPrimario:  #FFA15C;
+$colorPrimario: #ffa15c;
 
 $tamanoLetra: (
-
-t0: 1em,
-t01: 1.2em,
-t1: 1.5em,
-t2: 2em,
-t3: 3em,
-t4: 4em,
-t5: 5em,
-t6: 6em,
-t7: 7em,
-t8: 8em,
-
-
-
+  t0: 1em,
+  t01: 1.2em,
+  t1: 1.5em,
+  t2: 2em,
+  t3: 3em,
+  t4: 4em,
+  t5: 5em,
+  t6: 6em,
+  t7: 7em,
+  t8: 8em,
 );
-$t8: map-get($tamanoLetra , t8);
-$t7: map-get($tamanoLetra , t7);
-$t6: map-get($tamanoLetra , t6);
-$t5: map-get($tamanoLetra , t5);
-$t4: map-get($tamanoLetra , t4);
-$t3: map-get($tamanoLetra , t3);
-$t2: map-get($tamanoLetra , t2);
-$t1: map-get($tamanoLetra , t1);
-$t01: map-get($tamanoLetra , t01);
-$t0: map-get($tamanoLetra , t1);
-
-
-    
+$t8: map-get($tamanoLetra, t8);
+$t7: map-get($tamanoLetra, t7);
+$t6: map-get($tamanoLetra, t6);
+$t5: map-get($tamanoLetra, t5);
+$t4: map-get($tamanoLetra, t4);
+$t3: map-get($tamanoLetra, t3);
+$t2: map-get($tamanoLetra, t2);
+$t1: map-get($tamanoLetra, t1);
+$t01: map-get($tamanoLetra, t01);
+$t0: map-get($tamanoLetra, t1);
 
 * {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
+.row {
+  margin-left: 0vh;
+  margin-right: 0vh;
+}
 
+/* Estilo de letras  */
 
-  
-  /* Estilo de letras  */
-  
-  .letrasPequenas {
-      font-family: Poppins;
+.letrasPequenas {
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   line-height: 24px;
   letter-spacing: 0.01em;
   color: #333333;
   padding: 20px;
-      
-  }
+}
 
-  .letrasPequenas1 {
-    font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: $t2;
-letter-spacing: 0.01em;
-color: #333333;
-margin-top: 7vh;
+.letrasGrandes211 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t6;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
 
-    
+.letrasGrandes22 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t6;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasGrandes2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t6;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+.letrasGrandes21 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t6;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letraGrandeCajas {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 68px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasPequenasCajas {
+  text-overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t0;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.letrasPequenasCajas2 {
+  text-overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $t0;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color: #333333;
 }
 
 hr {
-    text-align: center;
-    color: $colorPrimario;
-    background-color: $colorPrimario;
-
+  text-align: center;
+  color: $colorPrimario;
+  background-color: $colorPrimario;
 }
 
+/* margenes */
+
 #stylo2 {
-    margin-top: 7vh;
-    margin-left: 16vh;
+  margin-top: 7vh;
+  margin-left: 16vh;
 }
 
 #stylo22 {
-
-    margin-left: 8vh;
+  margin-left: 8vh;
 }
 
 #stylo2221 {
-
-    margin-left: 6vh;
+  margin-left: 6vh;
 }
 
 #stylo221 {
-    margin-top: 7vh;
-    margin-left: 8vh;
+  margin-top: 7vh;
+  margin-left: 8vh;
 }
-  
-  
-  .letrasGrandes { font-family: Poppins;
-      font-style: normal;
-      font-weight: bold;
-      font-size: $t6;
-      letter-spacing: 0.01em;
-      color: #333333;
-      }
 
-      .letrasGrandes211 { font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: $t6;
-        letter-spacing: 0.01em;
-        color: #333333;
-        }
-
-        .letrasGrandes2111 { font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: $t0;
-            letter-spacing: 0.01em;
-            color: white
-            ;
-            }
-
-
-      .letrasGrandes2 { font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: $t6;
-        letter-spacing: 0.01em;
-        color: #333333;
-
-        }
-        .letrasGrandes21 { font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: $t6;
-            letter-spacing: 0.01em;
-            color: #333333;
-    
-            }
-
-            
-  .btn-success {
-      background-color: $colorPrimario;
-      border-color: $colorPrimario;
-  }
-  #sloganIzquierda { 
-      font-family: Poppins;
+.btn-success {
+  background-color: $colorPrimario;
+  border-color: $colorPrimario;
+}
+#sloganIzquierda {
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: $t1;
   letter-spacing: 0.01em;
   color: #333333;
   padding: 0%;
-  }
-  
-  
-  .styloSlogan {
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: bold;
-      font-size: $t5;
-      padding: 0%;
-          
-          
-   }
-  
-      
-  
-   .letrasPequenasCentradas {
-      font-family: Poppins;
+}
+
+.styloSlogan {
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  line-height: 24px;
-  font-size: 3vw;
-  letter-spacing: 0.01em;
-  color: #333333;
-  text-align: center;
-      
-  }
-  
+  font-size: $t5;
+  padding: 0%;
+}
 
-  
-  /* Estilos del nav */
+/* Estilos del nav */
 
-  
-  .marging 
-  {
-      margin-top: 35vh;
-   }
-  
-  /*  Cajas del index con informacion  */
-   .cajas{
-      height: 200px;
-      width: 200px;
-      background-color: white;
-      border: 1px solid #000000;
+.marging {
+  margin-top: 35vh;
+}
+
+/*  Cajas del index con informacion  */
+.cajas {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  }
-  
-  .cajas:hover {
-      transform: scale(1.5);
-  }
-  
+}
 
-  .letraGrandeCajas {
-  
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 64px;
-      line-height: 68px;
-      letter-spacing: 0.01em;
-      color: #333333;
-          }
-  
-    .letrasPequenasCajas {
-        text-overflow: hidden;
-              font-family: Poppins;
-          font-style: normal;
-          font-weight: bold;
-          font-size: $t0;
-          line-height: 35px;
-          letter-spacing: 0.01em;
-          color: #333333;
+.cajas:hover {
+  transform: scale(1.5);
+}
 
-  
-              
-          }
-          .letrasPequenasCajas2 {
-            text-overflow: hidden;
-                  font-family: Poppins;
-              font-style: normal;
-              font-weight: bold;
-              font-size: $t0;
-              line-height: 35px;
-              letter-spacing: 0.01em;
-              color: #333333;
-    
-      
-                  
-              }
+/* Background de secciones  */
 
+.backgroundImages {
+  background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
+  width: 100%;
 
-  
-  
-  
-  /* Background de secciones  */
-  
+  background-repeat: no-repeat;
+  height: 91vh;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
+.backgroundImages2 {
+  background-image: url(../assests/bosque-con-niebla-al-amanecer_1920x1080_xtrafondos.com.jpg);
 
-  .backgroundImages{
-    background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
-    width: 100%;
+  background-repeat: no-repeat;
+  height: 91vh;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
 
-	background-repeat: no-repeat;
-    height: 91vh;
-    background-color: rgb(50, 50, 50);
-    background-blend-mode: soft-light;
-  }
-   .backgroundImages2{
-    background-image: url(../assests/bosque-con-niebla-al-amanecer_1920x1080_xtrafondos.com.jpg);
-    
-	background-repeat: no-repeat;
-    height: 91vh;
-    background-color: rgb(50, 50, 50);
-    background-blend-mode: soft-light;
-  }
-  
-  .backgroundImages3{
-    background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(50, 50, 50);
-    background-blend-mode: soft-light;
-  }
-          #margintop {
-              margin-top: 180px;
-          }
-  
+.backgroundImages3 {
+  background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 91vh;
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+}
+#margintop {
+  margin-top: 180px;
+}
+
+/* form */
+
 .head {
-    background-color: $colorPrimario;
-    border-radius: 5px;
-    margin-top: -4.5vh;
-    -webkit-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
-    -moz-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
-    box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
+  background-color: $colorPrimario;
+  border-radius: 5px;
+  margin-top: -4.5vh;
+  -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  -moz-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
 }
 
 .effect-1 {
-    border: 0;
-    outline: none;
-    width: 100%;
-    padding: 7px 0;
-    border-bottom: 1px solid #ccc;
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .effect-1 ~ .focus-border {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: $colorPrimario;
-    transition: 0.4s;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: $colorPrimario;
+  transition: 0.4s;
 }
 
-.effect-1:focus ~ .focus-border{
-    width: 100%;
-    transition: 0.4s ;
-    left: 0;
-
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
 }
 
 .btn1 {
-    background: $colorPrimario;
-    color: white;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    width: 7vh;
-
+  background: $colorPrimario;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 7vh;
 }
 
 .btn1:hover {
-
-    -webkit-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
-    -moz-box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
-    box-shadow: 0px 26px 28px -15px rgba(255,161,92,0.49);
-
-
+  -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  -moz-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
+  box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
 }
-          
-  .letrasPequenasCentradas {
-      font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
-  letter-spacing: 0.01em;
-  color: #333333;
-  text-align: center;
-      
+
+.logoAlMedio {
+  margin-top: 35vh;
+}
+.marging-2222 {
+  margin-top: 12vh;
+}
+
+/* Media Querys para apariencias pequeñas */
+@media screen and (max-width: 1326px) {
+  .col-md-12 {
+    font-size: 1vh;
+  }
+  #stylo2 {
+    margin-top: 0vh;
+    margin-left: 0vh;
+  }
+  #stylo221 {
+    margin-top: 0vh;
+    margin-left: 0vh;
   }
 
-  .row { 
-      margin-left: 0vh;
-      margin-right: 0vh;
+  #stylo22 {
+    margin-top: 0vh;
+    margin-left: 0vh;
   }
-  
 
-  .logoAlMedio  {
-    margin-top: 35vh;
-        }
-        .marging-2222
-
-        {
-         margin-top: 12vh;
-         }
-  
-
-  
-  /* Media Querys para apariencias pequeñas */
-  @media screen and (max-width: 1326px)
-  { 
-
-
-.col-md-12 {
-    font-size: 1vh
-}
-#stylo2 {
+  #stylo2221 {
     margin-top: 0vh;
     margin-left: 0vh;
-}
-#stylo221 {
-    margin-top: 0vh;
-    margin-left: 0vh;
-}
-
-#stylo22 {
-    margin-top: 0vh;
-    margin-left: 0vh;
-}
-
-#stylo2221 {
-    margin-top: 0vh;
-    margin-left: 0vh;
-}
-.letrasPequenasCajas2 {
-        
+  }
+  .letrasPequenasCajas2 {
     font-size: $t3;
     text-align: center;
-
-
-        
-    }
-    .letrasPequenas1 {
-        
-        font-size: $t3;
-        text-align: center;
-    
-    
-            
-        }
-
   }
-
-  @media screen and (max-width: 767px) { 
-
-    .nav1 {
-        text-align: center
-    }
-
-    .col-sm-12 {
-        text-align: center;
-        margin-top: 3vh;
-    }
-
-    .styloSlogan {
-        font-size: $t3;
-    }
-    #sloganIzquierda {
-        font-size: $t0;
-    }
-
-    .letrasGrandes {
-        font-size: $t7;
-    }
-
-    .letrasGrandes2 {
-        font-size: $t6;
-    }
-    .letrapequenasCajas{
-        font-size: $t2
-    }
-
-    .logo {
-        margin-bottom: 9vh;
-
-    }
-
-    .letrasPequenas1 {
-    margin-top: 3vh;
+  .letrasPequenas1 {
     font-size: $t3;
-    }
-    .letrasGrandes21 { 
-
-        font-size: $t7;
-
-
-        }
-
-        .letrasGrandes211 { 
-
-            font-size: $t4;
-    
-    
-            }
-
-        .letrasPequenasCajas2 {
-        
-              font-size: $t3;
-              text-align: center;
-              line-height: 35px;
-
-      
-                  
-              }
-
-              #marging4 {
-                  margin-top: 20vh
-              }
-
-        .marging-2222{
-            margin-top: 2vh;
-        }
-
-
-
+    text-align: center;
   }
-  @media screen and (max-width: 380px) {
-
-    .letrasGrandes21 { 
-
-        font-size: $t5;
-
-
-        }
-
 }
 
+@media screen and (max-width: 767px) {
+  .nav1 {
+    text-align: center;
+  }
 
+  .col-sm-12 {
+    text-align: center;
+    margin-top: 3vh;
+  }
 
+  .styloSlogan {
+    font-size: $t3;
+  }
+  #sloganIzquierda {
+    font-size: $t0;
+  }
 
-  
-    @import "_nav.scss";
-    @import "_footer.scss";
-    @import "_form.scss"
+  .letrasGrandes {
+    font-size: $t7;
+  }
+
+  .letrasGrandes2 {
+    font-size: $t6;
+  }
+  .letrapequenasCajas {
+    font-size: $t2;
+  }
+
+  .logo {
+    margin-bottom: 9vh;
+  }
+
+  .letrasPequenas1 {
+    margin-top: 3vh;
+    font-size: $t3;
+  }
+  .letrasGrandes21 {
+    font-size: $t7;
+  }
+
+  .letrasGrandes211 {
+    font-size: $t5;
+  }
+
+  .letrasGrandes22 {
+    font-size: $t4;
+  }
+
+  .letrasPequenasCajas2 {
+    font-size: $t3;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  #marging4 {
+    margin-top: 20vh;
+  }
+
+  .marging-2222 {
+    margin-top: 2vh;
+  }
+
+  .backgroundImages3 {
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .letrasGrandes21 {
+    font-size: $t6;
+  }
+
+  .letrasGrandes211 {
+    font-size: $t6;
+  }
+
+  .letrasGrandes22 {
+    font-size: $t5;
+  }
+}
+
+@import "_nav.scss";
+@import "_footer.scss";
+@import "_form.scss";

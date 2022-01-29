@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+.row {
+  margin-left: 0vh;
+  margin-right: 0vh;
+}
+
 /* Estilo de letras  */
 .letrasPequenas {
   font-family: Poppins;
@@ -15,49 +20,6 @@
   padding: 20px;
 }
 
-.letrasPequenas1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2em;
-  letter-spacing: 0.01em;
-  color: #333333;
-  margin-top: 7vh;
-}
-
-hr {
-  text-align: center;
-  color: #FFA15C;
-  background-color: #FFA15C;
-}
-
-#stylo2 {
-  margin-top: 7vh;
-  margin-left: 16vh;
-}
-
-#stylo22 {
-  margin-left: 8vh;
-}
-
-#stylo2221 {
-  margin-left: 6vh;
-}
-
-#stylo221 {
-  margin-top: 7vh;
-  margin-left: 8vh;
-}
-
-.letrasGrandes {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing: 0.01em;
-  color: #333333;
-}
-
 .letrasGrandes211 {
   font-family: Poppins;
   font-style: normal;
@@ -67,13 +29,13 @@ hr {
   color: #333333;
 }
 
-.letrasGrandes2111 {
+.letrasGrandes22 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 6em;
   letter-spacing: 0.01em;
-  color: white;
+  color: #333333;
 }
 
 .letrasGrandes2 {
@@ -92,60 +54,6 @@ hr {
   font-size: 6em;
   letter-spacing: 0.01em;
   color: #333333;
-}
-
-.btn-success {
-  background-color: #FFA15C;
-  border-color: #FFA15C;
-}
-
-#sloganIzquierda {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.5em;
-  letter-spacing: 0.01em;
-  color: #333333;
-  padding: 0%;
-}
-
-.styloSlogan {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 5em;
-  padding: 0%;
-}
-
-.letrasPequenasCentradas {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
-  font-size: 3vw;
-  letter-spacing: 0.01em;
-  color: #333333;
-  text-align: center;
-}
-
-/* Estilos del nav */
-.marging {
-  margin-top: 35vh;
-}
-
-/*  Cajas del index con informacion  */
-.cajas {
-  height: 200px;
-  width: 200px;
-  background-color: white;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-}
-
-.cajas:hover {
-  transform: scale(1.5);
 }
 
 .letraGrandeCajas {
@@ -180,6 +88,74 @@ hr {
   color: #333333;
 }
 
+hr {
+  text-align: center;
+  color: #ffa15c;
+  background-color: #ffa15c;
+}
+
+/* margenes */
+#stylo2 {
+  margin-top: 7vh;
+  margin-left: 16vh;
+}
+
+#stylo22 {
+  margin-left: 8vh;
+}
+
+#stylo2221 {
+  margin-left: 6vh;
+}
+
+#stylo221 {
+  margin-top: 7vh;
+  margin-left: 8vh;
+}
+
+.btn-success {
+  background-color: #ffa15c;
+  border-color: #ffa15c;
+}
+
+#sloganIzquierda {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+  color: #333333;
+  padding: 0%;
+}
+
+.styloSlogan {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5em;
+  padding: 0%;
+}
+
+/* Estilos del nav */
+.marging {
+  margin-top: 35vh;
+}
+
+/*  Cajas del index con informacion  */
+.cajas {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cajas:hover {
+  transform: scale(1.5);
+}
+
 /* Background de secciones  */
 .backgroundImages {
   background-image: url(../assests/evening-g2ed6e170c_1920.jpg);
@@ -202,7 +178,7 @@ hr {
   background-image: url(../assests/wp3933598-capadocia-wallpapers.jpg);
   background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
+  height: 91vh;
   background-color: #323232;
   background-blend-mode: soft-light;
 }
@@ -211,8 +187,9 @@ hr {
   margin-top: 180px;
 }
 
+/* form */
 .head {
-  background-color: #FFA15C;
+  background-color: #ffa15c;
   border-radius: 5px;
   margin-top: -4.5vh;
   -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
@@ -234,7 +211,7 @@ hr {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #FFA15C;
+  background-color: #ffa15c;
   transition: 0.4s;
 }
 
@@ -245,7 +222,7 @@ hr {
 }
 
 .btn1 {
-  background: #FFA15C;
+  background: #ffa15c;
   color: white;
   outline: none;
   border: none;
@@ -258,21 +235,6 @@ hr {
   -webkit-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
   -moz-box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
   box-shadow: 0px 26px 28px -15px rgba(255, 161, 92, 0.49);
-}
-
-.letrasPequenasCentradas {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
-  letter-spacing: 0.01em;
-  color: #333333;
-  text-align: center;
-}
-
-.row {
-  margin-left: 0vh;
-  margin-right: 0vh;
 }
 
 .logoAlMedio {
@@ -363,6 +325,10 @@ hr {
   }
 
   .letrasGrandes211 {
+    font-size: 5em;
+  }
+
+  .letrasGrandes22 {
     font-size: 4em;
   }
 
@@ -379,9 +345,21 @@ hr {
   .marging-2222 {
     margin-top: 2vh;
   }
+
+  .backgroundImages3 {
+    height: 120vh;
+  }
 }
 @media screen and (max-width: 380px) {
   .letrasGrandes21 {
+    font-size: 6em;
+  }
+
+  .letrasGrandes211 {
+    font-size: 6em;
+  }
+
+  .letrasGrandes22 {
     font-size: 5em;
   }
 }
